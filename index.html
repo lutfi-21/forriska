@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Untuk Riska Amelia</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div id="opening" class="centered">
+    <h1>For Riska Amelia</h1>
+    <p>dari Lutfi...</p>
+    <button onclick="start()">Enter</button>
+  </div>
+
+  <div id="main" class="hidden">
+   <audio autoplay loop>
+  <source src="music.mp3" type="audio/mpeg">
+  Browser kamu tidak mendukung audio.
+</audio>
+    <div class="message-box">
+      <img src="foto.jpg" alt="Foto Kenangan" class="photo"/>
+      <p class="message">
+        Aku tau aku banyak salah, tapi disamping itu semua, aku rindu nian ka,<br/>
+        ado raso khusus yang dak biso aku sembunyiin, payah nian aku buat nyo,<br/>
+        tapi aku jugo dak biso nak ganggu kau terus, karno kau lah bahagia samo yang lain,<br/>
+        pesan dan website ini aku buat khusus pure cuma untuk meng ekspresikan diri aku ka,<br/>
+        maaf kalo buat dak nyaman, dak kau respon jugo dak papo kok ka, makasih buat semua nyo,<br/>
+        satu hal lagi, aku serius ka, semua nyo aku serius dengan apo yang aku ucapin,<br/>
+        aku idak bohong samo sekali, makasih ka,<br/>
+        <strong>Salam sayang - Lutfi</strong>
+      </p>
+    </div>
+  </div>
+
+  <script>
+    function start() {
+      document.getElementById("opening").classList.add("hidden");
+      document.getElementById("main").classList.remove("hidden");
+    }
+  </script>
+</body>
+</html>
